@@ -1,0 +1,43 @@
+{
+  "name": "@leafer-ui/node",
+  "version": "2.0.0",
+  "description": "@leafer-ui/node",
+  "author": "Chao (Leafer) Wan",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/node.esm.min.js",
+  "exports": {
+    "import": "./dist/node.esm.min.js",
+    "require": "./dist/node.min.cjs",
+    "types": "./types/index.d.ts"
+  },
+  "types": "types/index.d.ts",
+  "unpkg": "dist/node.esm.min.js",
+  "jsdelivr": "dist/node.esm.min.js",
+  "files": ["src","types","dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leaferjs/leafer-ui.git"
+  },
+  "homepage": "https://github.com/leaferjs/leafer-ui/tree/main/packages/platform/node",
+  "bugs": "https://github.com/leaferjs/leafer-ui/issues",
+  "keywords": [
+    "leafer node",
+    "leafer-node",
+    "leafer-ui",
+    "leaferjs"
+  ],
+  "dependencies": {
+    "@leafer/core": "2.0.0",
+    "@leafer/canvas-node": "2.0.0",
+    "@leafer/image-node": "2.0.0",
+    "@leafer/partner": "2.0.0",
+    "@leafer/interface": "2.0.0",
+    "@leafer-ui/draw": "2.0.0",
+    "@leafer-ui/core": "2.0.0",
+    "@leafer-ui/partner": "2.0.0",
+    "@leafer-ui/interface": "2.0.0",
+    "@leafer-in/export": "2.0.0",
+    "@leafer-in/interface": "2.0.0"
+  }
+}

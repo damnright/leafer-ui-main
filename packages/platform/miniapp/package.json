@@ -1,0 +1,43 @@
+{
+  "name": "@leafer-ui/miniapp",
+  "version": "2.0.0",
+  "description": "@leafer-ui/miniapp",
+  "author": "Chao (Leafer) Wan",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/miniapp.esm.min.js",
+  "exports": {
+    "import": "./dist/miniapp.esm.min.js",
+    "require": "./dist/miniapp.min.cjs",
+    "types": "./types/index.d.ts"
+  },
+  "types": "types/index.d.ts",
+  "unpkg": "dist/miniapp.esm.min.js",
+  "jsdelivr": "dist/miniapp.esm.min.js",
+  "files": ["src","types","dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leaferjs/leafer-ui.git"
+  },
+  "homepage": "https://github.com/leaferjs/leafer-ui/tree/main/packages/platform/miniapp",
+  "bugs": "https://github.com/leaferjs/leafer-ui/issues",
+  "keywords": [
+    "leafer miniapp",
+    "leafer-miniapp",
+    "leafer-ui",
+    "leaferjs"
+  ],
+  "dependencies": {
+    "@leafer/core": "2.0.0",
+    "@leafer/canvas-miniapp": "2.0.0",
+    "@leafer/image-miniapp": "2.0.0",
+    "@leafer/partner": "2.0.0",
+    "@leafer/interface": "2.0.0",
+    "@leafer-ui/draw": "2.0.0",
+    "@leafer-ui/core": "2.0.0",
+    "@leafer-ui/interaction-miniapp": "2.0.0",
+    "@leafer-ui/partner": "2.0.0",
+    "@leafer-ui/interface": "2.0.0",
+    "@leafer-in/interface": "2.0.0"
+  }
+}
